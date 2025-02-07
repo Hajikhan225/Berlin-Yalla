@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ludo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="board">
+        <!-- Ludo board content will go here -->
+    </div>
+
+    <button id="rollDiceBtn">Roll Dice</button>
+    <div id="diceResult"></div>
+
+    <div id="players">
+        <button onclick="invitePlayer()">Invite Friend</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
